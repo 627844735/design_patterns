@@ -1,0 +1,3 @@
+#忽略提交的文件
+.idea
+design_patterns.iml
