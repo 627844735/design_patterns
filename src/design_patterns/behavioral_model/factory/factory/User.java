@@ -47,4 +47,5 @@ public class User {
     public void setConsumption(Integer consumption) {
         this.consumption = consumption;
     }
+
 }
