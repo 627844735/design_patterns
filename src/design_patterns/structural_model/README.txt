@@ -30,3 +30,7 @@
                     1.Component 基类/接口.  ->  ConcreteXXX  基类派生类或者实现类.
                     2.DecoratorComponent 装饰者.
                         1.继承自 基类/接口. 的一个抽象类. 并且内部含有一个 [基类] 的属性  -> ConcreteDecoratorXXX 装饰者实现类.
+
+
+                5.享元模式：
+                    全局创建一个Map. 如果创造对象是需要先Map中查找,如果存在就返回,如果不存在就创建之后加入Map. 节省空间.
